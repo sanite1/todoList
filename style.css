@@ -1,0 +1,61 @@
+body {
+    text-align: center;
+    padding: 100px auto;
+    background-color: lightseagreen;
+    font-family: 'Poppins', sans-serif;
+}
+.space {
+    height: 100px;
+}
+.todo-input {
+    width: 300px;
+    height: 30px;
+    outline: none;
+    border-radius: 5px;
+    border-width: 0;;
+}
+.todo-input:hover, .todo-input:focus {
+    box-shadow: 0 1px 6px 0 rgba(32, 33, 36, 0.58);
+}
+button {
+    margin-top: 20px;
+    height: 50px;
+    width: 200px;
+    background-color: white;
+    border-width: 0;
+    border-radius: 5px;
+    font-size: 20px;
+    margin-left: 20px;
+}
+button:hover {
+    background-color: lightslategrey
+}
+ul {
+    list-style: none;
+}
+.del {
+    color: black;
+    float: right;
+    font-size: 16px;
+    font-style: normal;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+.del:hover {
+    cursor: pointer;
+    color: red;
+}
+.item {
+    text-align: left;
+    font-size: 25px;
+    width: 60%;
+    margin: auto;
+    background-color: white;
+    height: 50px;
+    border-width: 1px;
+    border-radius: 5px;
+    padding-top: 12.5px;
+    padding-left: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 1px 6px 0 rgba(32, 33, 36, 0.58);
+}
